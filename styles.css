@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; 
+    color: white;
+}
+.game-container {
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(31, 84, 4);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    min-width: 90vw;
+    min-height: 600px;
+}
+.scores {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 2rem;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.card {
+    width: 50px;
+    height: 75px;
+    background-color: rgb(255, 0, 136);
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.faceDown {
+    width: 50px;
+    height: 75px;
+    background-color: black;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+
+.instructions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
